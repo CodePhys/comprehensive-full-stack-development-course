@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import{RouterModule,Routes } from '@angular/router';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import{RouterModule,Routes } from '@angular/router';
         }
 
       ]
-    )
+    ),
+    BrowserAnimationsModule
     
   ],
   providers: [],
