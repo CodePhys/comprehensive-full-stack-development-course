@@ -1,0 +1,15 @@
+.bannerset{
+    color: white;
+    
+}
+a{
+    color: white;
+    padding: 10px;
+    font-weight: 600;
+}
+
+a:hover {
+    background-color: aquamarine;
+    color: black;
+
+}

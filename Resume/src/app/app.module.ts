@@ -1,20 +1,32 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
-import { SqlComponent } from './sql/sql.component';
+import{RouterModule,Routes } from '@angular/router';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    SqlComponent
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    RouterModule.forRoot(
+      [
+        {
+          path:'',
+          component:HomeComponent
+        },
+        {
+          path:'home',
+          component:HomeComponent
+        }
+
+      ]
+    )
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
