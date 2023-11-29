@@ -4,9 +4,6 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import{RouterModule,Routes } from '@angular/router';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-<<<<<<< HEAD
-import { CShComponent } from './csh/csh.component';
-=======
 import { CshComponent } from './csh/csh.component';
 import { AspnetComponent } from './aspnet/aspnet.component';
 import { JsComponent } from './js/js.component';
@@ -14,28 +11,30 @@ import { AngComponent } from './ang/ang.component';
 import { TscrComponent } from './tscr/tscr.component';
 import { RctComponent } from './rct/rct.component';
 import { SqlComponent } from './sql/sql.component';
->>>>>>> dcae8c16634f245c114b609f5d39b374c7ddc5d4
+import {MatButtonModule} from '@angular/material/button';
+import {MatCardModule} from '@angular/material/card';
+import { GitComponent } from './git/git.component';
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-<<<<<<< HEAD
-    CShComponent,
-=======
     CshComponent,
     AspnetComponent,
     JsComponent,
     AngComponent,
     TscrComponent,
     RctComponent,
-    SqlComponent
->>>>>>> dcae8c16634f245c114b609f5d39b374c7ddc5d4
+    SqlComponent,
+    GitComponent
     
   ],
   imports: [
     BrowserModule,
+    MatCardModule,
+    MatButtonModule,
     RouterModule.forRoot(
       [
         {
@@ -73,6 +72,10 @@ import { SqlComponent } from './sql/sql.component';
         {
           path:'sql',
           component:SqlComponent
+        },
+        {
+          path:'git',
+          component:GitComponent
         },
         {
           path:'**',

@@ -1,21 +1,58 @@
 
-<h1 class="container p-4">Benvenuti al nostro sito</h1>
-<div class="container">
-
-  <nav class="navbar navbar-expand-lg bg-dark p-5 bannerset">
-  <ul class=" collapse navbar-collapse navbar-nav p-3 ">
-    <li><a routerLink="/home">Home</a></li>
-    <li><a routerLink="/csh">C#</a></li>
-    <li><a routerLink="/sql">SqlServer</a></li>
-    <li><a routerLink="/aspnet">AspNET MVC</a></li>
-    <li><a routerLink="/js">Javascript</a></li>
-    <li><a routerLink="/tscr">TypeScript</a></li>
-    <li><a routerLink="/ang">Angular</a></li>
-    <li><a routerLink="/rct">React</a></li>
-  </ul>
- 
+<!--<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="container-fluid " id="navbarNavAltMarkup">
+      <a class="nav-item nav-link active" routerLink="/home">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" routerLink="/csh">C#</a>
+      <a class="nav-item nav-link" routerLink="/sql">SqlServer</a>
+      <a class="nav-item nav-link" routerLink="/aspnet">AspNET</a>
+      <a class="nav-item nav-link" routerLink="/js">Javascript</a>
+      <a class="nav-item nav-link" routerLink="/tscr">TypeScript</a>
+      <a class="nav-item nav-link" routerLink="/ang">Angular</a>
+      <a class="nav-item nav-link" routerLink="/rct">React</a>
+      <a class="nav-item nav-link" routerLink="/git">Git</a>   
+  </div>
 </nav>
-</div>
+-->
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+  <a class="navbar-brand nav-item active" routerLink="/home">Full stack Course</a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/csh">C#</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/sql">SqlServer</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/aspnet">AspNET</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/js">Javascript</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/tscr">TypeScript</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/ang">Angular</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/rct">React</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/git">Git</a>
+      </li>
+      
+    </ul>
+  </div>
+</nav>
 
 
 <router-outlet></router-outlet>
