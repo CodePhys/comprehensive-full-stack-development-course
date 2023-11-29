@@ -11,6 +11,7 @@ import { AngComponent } from './ang/ang.component';
 import { TscrComponent } from './tscr/tscr.component';
 import { RctComponent } from './rct/rct.component';
 import { SqlComponent } from './sql/sql.component';
+import { GitComponent } from './git/git.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { SqlComponent } from './sql/sql.component';
     AngComponent,
     TscrComponent,
     RctComponent,
-    SqlComponent
+    SqlComponent,
+    GitComponent
     
   ],
   imports: [
@@ -65,6 +67,10 @@ import { SqlComponent } from './sql/sql.component';
         {
           path:'sql',
           component:SqlComponent
+        },
+        {
+          path:'git',
+          component:GitComponent
         },
         {
           path:'**',
