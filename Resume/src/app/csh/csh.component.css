@@ -1,0 +1,33 @@
+
+
+.csharplogo-card {
+    margin:auto;
+    width: 400px;
+    margin: 0px;
+  }
+  
+
+.csharp-image{
+   max-width: 100px;
+   margin: 10px;
+}
+.card-content{
+  
+    background-color: rgb(200, 158, 143)
+    bac
+}
+
+.grid-container {
+    padding: 10px;
+    display: grid;
+    grid-template-columns:1FR 3FR; /* Two columns with equal width */
+    grid-auto-rows: 80px;
+    grid-gap: 0px; /* Optional: Add gap between items */
+  }
+  
+  .grid-item {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

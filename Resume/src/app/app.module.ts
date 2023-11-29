@@ -11,8 +11,8 @@ import { AngComponent } from './ang/ang.component';
 import { TscrComponent } from './tscr/tscr.component';
 import { RctComponent } from './rct/rct.component';
 import { SqlComponent } from './sql/sql.component';
-import { GitComponent } from './git/git.component';
-
+import {MatButtonModule} from '@angular/material/button';
+import {MatCardModule} from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -24,12 +24,13 @@ import { GitComponent } from './git/git.component';
     AngComponent,
     TscrComponent,
     RctComponent,
-    SqlComponent,
-    GitComponent
+    SqlComponent
     
   ],
   imports: [
     BrowserModule,
+    MatCardModule,
+    MatButtonModule,
     RouterModule.forRoot(
       [
         {
@@ -67,10 +68,6 @@ import { GitComponent } from './git/git.component';
         {
           path:'sql',
           component:SqlComponent
-        },
-        {
-          path:'git',
-          component:GitComponent
         },
         {
           path:'**',
