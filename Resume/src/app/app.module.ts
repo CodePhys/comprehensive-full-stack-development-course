@@ -13,6 +13,7 @@ import { RctComponent } from './rct/rct.component';
 import { SqlComponent } from './sql/sql.component';
 import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
+import { GitComponent } from './git/git.component';
 
 @NgModule({
   declarations: [
@@ -68,6 +69,10 @@ import {MatCardModule} from '@angular/material/card';
         {
           path:'sql',
           component:SqlComponent
+        },
+        {
+          path:'git',
+          component:GitComponent
         },
         {
           path:'**',
