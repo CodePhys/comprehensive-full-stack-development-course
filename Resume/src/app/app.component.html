@@ -1,23 +1,31 @@
+<!-- app.component.html -->
 
-<h1 class="container p-4">Benvenuti al nostro sito</h1>
-<div class="container">
+<mat-toolbar color="primary">
+  <div fxHide.lt-sm fxLayout="row" fxLayoutAlign="start center">
+    <!-- Icona del menu -->
+    <button mat-icon-button (click)="toggleMenu()">
+      <mat-icon>menu</mat-icon>
+    </button>
+  </div>
 
-  <nav class="navbar navbar-expand-lg bg-dark p-5 bannerset">
-  <ul class=" collapse navbar-collapse navbar-nav p-3 ">
-    <li><a routerLink="/home">Home</a></li>
-    <li><a routerLink="/csh">C#</a></li>
-    <li><a routerLink="/sql">SqlServer</a></li>
-    <li><a routerLink="/aspnet">AspNET MVC</a></li>
-    <li><a routerLink="/js">Javascript</a></li>
-    <li><a routerLink="/tscr">TypeScript</a></li>
-    <li><a routerLink="/ang">Angular</a></li>
-    <li><a routerLink="/rct">React</a></li>
-    <li><a routerLink="/git">Git</a></li>
+  <!-- Logo -->
+  <span fxHide.lt-sm>Fantastico Logo</span>
 
-  </ul>
- 
-</nav>
-</div>
+  <div fxShow.lt-sm fxLayout="row" fxLayoutAlign="end center">
+    <!-- Voci di menu visibili su schermi più grandi -->
+    <mat-nav-list fxHide.lt-sm fxLayout="row" fxLayoutGap="16px">
+      <a mat-list-item routerLink="/home">Home</a>
+      <a mat-list-item routerLink="/csh">C#</a>
+      <a mat-list-item routerLink="/sql">SqlServer</a>
+      <a mat-list-item routerLink="/aspnet">AspNET MVC</a>
+      <a mat-list-item routerLink="/js">Javascript</a>
+      <a mat-list-item routerLink="/tscr">TypeScript</a>
+      <a mat-list-item routerLink="/ang">Angular</a>
+      <a mat-list-item routerLink="/rct">React</a>
+      <a mat-list-item routerLink="/git">Git</a>
+    </mat-nav-list>
+  </div>
+</mat-toolbar>
 
-
+<!-- Contenuto della pagina -->
 <router-outlet></router-outlet>
