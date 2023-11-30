@@ -19,7 +19,7 @@
   }
   .fade-in-text {
     
-    animation: fadeIn 3s;
+    animation: fadeIn 2s;
   }
   @keyframes fadeIn {
     0% { opacity: 0; }
