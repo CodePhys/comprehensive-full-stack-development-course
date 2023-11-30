@@ -29,8 +29,8 @@ import { GitComponent } from './git/git.component';
     RctComponent,
     SqlComponent,
     GitComponent,
-    
-  ],
+  
+      ],
   imports: [
     BrowserModule,
     MatCardModule,
