@@ -1,9 +1,11 @@
-import { NgModule } from '@angular/core';
+import { NgModule} from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
 import{RouterModule,Routes } from '@angular/router';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+//pagine
+import { HomeComponent } from './home/home.component';
 import { CshComponent } from './csh/csh.component';
 import { AspnetComponent } from './aspnet/aspnet.component';
 import { JsComponent } from './js/js.component';
@@ -11,12 +13,17 @@ import { AngComponent } from './ang/ang.component';
 import { TscrComponent } from './tscr/tscr.component';
 import { RctComponent } from './rct/rct.component';
 import { SqlComponent } from './sql/sql.component';
-import {MatButtonModule} from '@angular/material/button';
-import {MatCardModule} from '@angular/material/card';
 import { GitComponent } from './git/git.component';
 
+//Angular Materials
+import { MatButtonModule } from '@angular/material/button';
+import { MatCardModule } from '@angular/material/card';
+import { MatListModule } from '@angular/material/list';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatIconModule } from '@angular/material/icon';
+import { MatMenuModule } from '@angular/material/menu';
 
-
+import { CardSliderComponent } from './card-slider/card-slider.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,12 +36,17 @@ import { GitComponent } from './git/git.component';
     RctComponent,
     SqlComponent,
     GitComponent,
-  
-      ],
+    CardSliderComponent
+    
+  ],
   imports: [
     BrowserModule,
     MatCardModule,
     MatButtonModule,
+    MatListModule,
+    MatIconModule,
+    MatToolbarModule,
+    MatMenuModule,
     RouterModule.forRoot(
       [
         {
