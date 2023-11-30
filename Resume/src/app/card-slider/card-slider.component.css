@@ -1,6 +1,7 @@
 .slider {
     display: flex;
     overflow: hidden;
+  height: 80%;
   }
   
   .slide {
@@ -16,13 +17,13 @@
     background-repeat: no-repeat;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-top: 3%;
+    margin-top: 2%;
     flex: 0 0 100%;
     max-width: 90%;
     margin-right: 5%;
     margin-left: 5%;
-    margin-bottom: 3%;
-    height: auto;
+    margin-bottom: 2%;
+    max-height: 70%;
     border-radius: 10px;
   }
 
@@ -52,6 +53,9 @@
 .bttn{
     background-color: rgb(172, 217, 196);
     margin: 4%;
+    margin-top:0px;
+    margin-bottom:0px;
+    height: 40px;
     width: 41%;
 }
 
