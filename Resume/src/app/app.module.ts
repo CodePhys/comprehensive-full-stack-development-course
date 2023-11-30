@@ -14,9 +14,7 @@ import { SqlComponent } from './sql/sql.component';
 import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
 import { GitComponent } from './git/git.component';
-
-
-
+import { CardSliderComponent } from './card-slider/card-slider.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,7 +26,8 @@ import { GitComponent } from './git/git.component';
     TscrComponent,
     RctComponent,
     SqlComponent,
-    GitComponent
+    GitComponent,
+    CardSliderComponent
     
   ],
   imports: [
