@@ -37,7 +37,7 @@ import { MatMenuModule } from '@angular/material/menu';
     TscrComponent,
     RctComponent,
     SqlComponent,
-    GitComponent
+    GitComponent,
     
   ],
   imports: [
