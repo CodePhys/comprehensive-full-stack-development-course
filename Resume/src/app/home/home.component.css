@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(216, 183, 171);
+}
+
+h1{
+    font-family: "Lucida Console";
+    text-align: center;
+    padding-top: 50px; /* Spazio sopra il testo */
+    font-size: 1.5em; /* Dimensione del carattere più grande */
+  
+}
+
+article p{
+
+    font-family: "Courier New";
+    text-align: center;
+    padding-top: 30px; /* Spazio sopra il testo */
+    font-size: 1 em; /* Dimensione del carattere più grande */
+}
+
+#home_container{
+    
+    background-color: aquamarine;
+    grid-auto-rows: 20px;
+    grid-gap: 10px; /* Optional: Add gap between items */
+    border-radius: 20px; 
+    padding-bottom: 30px;
+}
+
