@@ -1,8 +1,10 @@
+body{
+  background-color:   rgb(216, 183, 171);
+}
 
 .csharplogo-card {
     margin: 20px;
-  }
- 
+}
 
 .csharp-image{
    max-width: 200px;
@@ -21,11 +23,11 @@
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive columns */
     grid-auto-rows: 80px;
     grid-gap: 10px; /* Optional: Add gap between items */
-  }
+}
   
-  .grid-item {
+.grid-item {
 
-    display: flex;
-    align-items:flex-start;
-    justify-content: center;
-  }
+  display: flex;
+  align-items:flex-start;
+  justify-content: center;
+}

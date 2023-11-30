@@ -1,0 +1,17 @@
+.navbar {
+    height: 80px; /* Altezza desiderata */
+  }
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  font-family: 'Lucida Console';
+}
+
+.navbar-nav .nav-item {
+    margin-right: 20px; /* Modifica il valore a seconda dello spazio desiderato */
+  }
+/* Imposta un margine destro più grande solo per la prima voce */
+.navbar-nav .nav-item:first-child {
+    margin-left: 80px; /* Modifica il valore a seconda dello spazio desiderato */
+  }
+
