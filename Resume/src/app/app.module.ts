@@ -14,6 +14,10 @@ import { SqlComponent } from './sql/sql.component';
 import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
 import { GitComponent } from './git/git.component';
+import { MatListModule } from '@angular/material/list';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatIconModule } from '@angular/material/icon';
+import { MatMenuModule } from '@angular/material/menu';
 
 
 
@@ -35,6 +39,10 @@ import { GitComponent } from './git/git.component';
     BrowserModule,
     MatCardModule,
     MatButtonModule,
+    MatListModule,
+    MatIconModule,
+    MatToolbarModule,
+    MatMenuModule,
     RouterModule.forRoot(
       [
         {
