@@ -28,7 +28,7 @@ import { GitComponent } from './git/git.component';
     TscrComponent,
     RctComponent,
     SqlComponent,
-    GitComponent
+    GitComponent,
     
   ],
   imports: [
