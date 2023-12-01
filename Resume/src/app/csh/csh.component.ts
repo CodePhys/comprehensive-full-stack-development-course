@@ -15,7 +15,7 @@ export class CshComponent {
     {
       title: 'Cos\'è C# ?',
       image: '/assets/images/Logo_C_sharp.png',
-      content:`C# è un linguaggio \ndi programmazione multi-paradigma
+      content:`C# è un linguaggio di programmazione multi-paradigma
        che supporta tutti i concetti della programmazione orientata agli oggetti.
        I programmi C# sono costituiti da uno o più file.
         Ogni file contiene zero o più namespace.\n
