@@ -19,7 +19,7 @@ export class AppComponent {
   @HostListener('window:resize', ['$event'])
   onResize(event: any) {
     // Chiudi il menu se la larghezza della finestra è inferiore a soglia, cosi non si apre automaticamente
-    this.isNavbarOpen = window.innerWidth > 700;
+    this.isNavbarOpen = window.innerWidth > 1000;
   }
 
 

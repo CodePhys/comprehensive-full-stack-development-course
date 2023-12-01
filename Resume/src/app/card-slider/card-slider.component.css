@@ -47,21 +47,23 @@
   }
 
   .cardtext{
-    margin-top: 4%;
+    margin-top: 2%;
       font-size: 18px;
       position:relative;
       top: 40%;
       left: 50%;
       transform: translate(-50%, -50%);
   }
-  .content{
-    
-    font-family:  'Lucida Console';
+  .content {
+    font-family: 'Lucida Console';
     margin-top: 3%;
-    margin-bottom: 20%;
+    margin-bottom: 5%;  /* Modificato per rendere il margine inferiore meno grande */
     margin-right: 1%;
-    margin-left:2%;
-  }
+    margin-left: 2%;
+    padding: 2%;  /* Aggiunto padding per separare il contenuto dai bordi del Mat Card */
+    box-sizing: border-box;  /* Assicura che il padding non aumenti la larghezza complessiva */
+}
+
   .cardimage{
     width: 100%;
      max-width: 300px;
