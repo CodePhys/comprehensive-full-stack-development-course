@@ -1,10 +1,18 @@
 
-<body>
+<body class = "fade-in-text">
   <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
     <a class="navbar-brand nav-item active" routerLink="/home">Full Stack Course</a>
   
     <!-- navbar.component.html -->
-    <button class="navbar-toggler" type="button" (click)="toggleNavbar()" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <button 
+      class="navbar-toggler"
+      type="button"
+      (click)="toggleNavbar()"
+      data-toggle="collapse"
+      data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown"
+      aria-expanded="false"
+      aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
@@ -42,5 +50,5 @@
   </nav>
 
  
-<router-outlet></router-outlet>
+<router-outlet ></router-outlet>
 </body>

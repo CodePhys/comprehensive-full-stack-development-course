@@ -1,0 +1,22 @@
+
+.ico{
+    position: absolute; /* Position the link */
+    top: 550px; /* Position from the top */
+    left: 15%;
+    transform: translate(-50%, -50%); /* Center the link precisely */
+}
+
+
+  img{
+    max-width: 60px;
+    height: auto;
+  }
+
+.ico:nth-child(3) {
+    left: 30%;
+  }
+
+  .ico:nth-child(4) {
+    left: 85%;
+  }
+
