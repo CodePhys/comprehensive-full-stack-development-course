@@ -22,7 +22,7 @@ export class HomeComponent {
     {
       title: 'Benvenuti al nostro riassunto completo del corso di sviluppo software',
       image: '/assets/images/home.png',
-      content: "Questo riassunto serve non solo come un promemoria delle competenze acquisite, ma anche come una guida per ulteriori esplorazioni e apprendimenti. Che siate sviluppatori in erba o esperti che cercano di rinfrescare le loro conoscenze, queste pagine rappresentano un punto di riferimento essenziale per il vostro viaggio nel mondo dello sviluppo software."
+      content: 'Questo riassunto serve non solo come un promemoria delle competenze acquisite, ma anche come una guida per ulteriori esplorazioni e apprendimenti. Che siate sviluppatori in erba o esperti che cercano di rinfrescare le loro conoscenze, queste pagine rappresentano un punto di riferimento essenziale per il vostro viaggio nel mondo dello sviluppo software.'
     },
   
     // Add more cards as needed
