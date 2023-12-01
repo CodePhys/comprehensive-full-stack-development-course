@@ -9,12 +9,13 @@
         </mat-card-header>
         <mat-card-content class="content">
         <img class ="cardimage" mat-card-image [src]="card.image" alt="{{ card.title }}">
-
+        <div class="cardtext">
           {{ card.content }}          
-        </mat-card-content>
+        </div>
+      </mat-card-content>
       </mat-card>
     </div>
   </div>
   
-  <button class= "bttn" mat-button (click)="previousCard()" [disabled]="currentIndex === 0">prev</button>
-  <button class= "bttn" mat-button (click)="nextCard()" [disabled]="currentIndex === cards.length - 1">next</button>
+  <button class= "bttn " mat-button (click)="previousCard()" [disabled]="currentIndex === 0">prev</button>
+  <button class= "bttn " mat-button (click)="nextCard()" [disabled]="currentIndex === cards.length - 1">next</button>
