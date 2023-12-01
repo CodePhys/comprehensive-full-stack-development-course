@@ -9,8 +9,7 @@
         </mat-card-header>
         <mat-card-content class="content">
         <img class ="cardimage" mat-card-image [src]="card.image" alt="{{ card.title }}">
-        <div class="cardtext">
-          {{ card.content }}          
+        <div class="cardtext" [innerHTML]="card.content">         
         </div>
       </mat-card-content>
       </mat-card>

@@ -9,9 +9,9 @@ export class RctComponent {
   cards = [
     
     {
-      title: 'Card 2',
-      image: 'https://via.placeholder.com/300',
-      content: 'Content for Card 2'
+      title: "Cos'è React?",
+      image: '/assets/images/react-logo.png',
+      content: '<b>React</b>'
     },
     {
       title: 'Card 3',
